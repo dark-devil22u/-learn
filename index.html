@@ -116,33 +116,17 @@
     </section>
 
     <section id="Contacts">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>Contacts Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
-              </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Mesage</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Send</button>
-            </form>
-          </div>
-        </div>
-        <div class="left-side">
-          <div class="address details">
-            <i class="fas fa-map-marker-alt"></i>
-
-        </div>
-      </div>
+      <form name="contact" netlify>
+        <p>
+          <label>Name <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Email <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
     </section>
 
     <footer>
