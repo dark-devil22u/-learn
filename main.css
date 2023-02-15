@@ -26,6 +26,12 @@ footer {
   background: black;
 }
 
+p {
+  text-align: right;
+}
+input {
+  width: 100px;
+}
 
 .wrapper {
   width: 100%;
