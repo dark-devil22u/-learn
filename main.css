@@ -26,10 +26,10 @@ footer {
   background: black;
 }
 
-section, p {
+#Contacts, p {
   text-align: right;
 }
-section, input {
+#Contacts, input {
   width: 100px;
 }
 
