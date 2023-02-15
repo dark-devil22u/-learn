@@ -26,12 +26,6 @@ footer {
   background: black;
 }
 
-#Contacts, p {
-  text-align: right;
-}
-#Contacts, input {
-  width: 100px;
-}
 
 .wrapper {
   width: 100%;
