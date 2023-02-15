@@ -26,10 +26,10 @@ footer {
   background: black;
 }
 
-p {
+section, p {
   text-align: right;
 }
-input {
+section, input {
   width: 100px;
 }
 
