@@ -25,6 +25,9 @@ footer {
   padding: 0;
   background: black;
 }
+footer, .text-white {
+  position: bottom;
+}
 
 .wrapper {
   width: 100%;
